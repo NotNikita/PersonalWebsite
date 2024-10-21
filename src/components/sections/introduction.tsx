@@ -15,7 +15,7 @@ const Introduction = () => {
     <>
       <div className="relative space-y-4">
         <div className="flex flex-col md:flex-row justify-center items-center gap-16">
-          <Image src="/images/webp/me.jpeg" alt="Me (Nikita Yaskevich)" width={200} height={200} className="rounded-full animate-float" />
+          <Image src="/me.jpeg" alt="Me (Nikita Yaskevich)" width={200} height={200} className="rounded-full animate-float" />
 
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-4">
