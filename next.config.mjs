@@ -2,7 +2,24 @@
 const nextConfig = {
   assetPrefix: "/PersonalWebsite/",
   images: {
-    domains: ["https://notnikita.github.io/PersonalWebsite/", "http://www.nik-yaskevich.xyz/"],
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "notnikita.github.io/",
+        port: "",
+        pathname: "/PersonalWebsite/**",
+      },
+      {
+        protocol: "http",
+        hostname: "nik-yaskevich.xyz/",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "nik-yaskevich.xyz/",
+        port: "",
+      },
+    ],
   },
 };
 
