@@ -13,7 +13,7 @@ export const projectsItems: ProjectItem[] = [
     role: "Creator",
     description: "Coming soon, now private. Using SSR and Next.js to create a restaurant helper app.",
     href: "https://github.com/NotNikita/TutMenu",
-    image: "/calendar.svg",
+    image: "./calendar.svg",
     backgroundColor: "frogger",
   },
   {
@@ -21,7 +21,7 @@ export const projectsItems: ProjectItem[] = [
     role: "Creator",
     description: "todo",
     href: "https://github.com/NotNikita/Pokemons",
-    image: "/pokemon.svg",
+    image: "./pokemon.svg",
     backgroundColor: "2fa",
   },
   {
@@ -30,7 +30,7 @@ export const projectsItems: ProjectItem[] = [
     description:
       "An node.js + telegram application, crawling through certain websites and sending notifications to the user. Effective and optimize to get info anonymously",
     href: "https://github.com/NotNikita/PuppeteerScraper",
-    image: "/crawler.svg",
+    image: "./crawler.svg",
     backgroundColor: "voluntime",
   },
   {
@@ -38,7 +38,7 @@ export const projectsItems: ProjectItem[] = [
     role: "Creator",
     description: "A simple, yet useful web3 wallet that allows you to interact with the Ethereum blockchain.",
     href: "https://github.com/NotNikita/Web3Wallet",
-    image: "/wallet.svg",
+    image: "./wallet.svg",
     backgroundColor: "languagefix",
   },
   {
@@ -46,7 +46,7 @@ export const projectsItems: ProjectItem[] = [
     role: "Creator",
     description: "A landing page for local business, integrated with SEO analytics and Maps API.",
     href: "https://github.com/NotNikita/VodoProf",
-    image: "/maps.svg",
+    image: "./maps.svg",
     backgroundColor: "partygames",
   },
 ];
