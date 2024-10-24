@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/PersonalWebsite",
-  assetPrefix: "/PersonalWebsite",
+  // Those subdomain pathes are required only for pure GitHub Pages deploy
+  // basePath: "/PersonalWebsite",
+  // assetPrefix: "/PersonalWebsite",
   output: "export",
   reactStrictMode: true,
   images: {
