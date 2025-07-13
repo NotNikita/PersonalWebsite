@@ -13,7 +13,7 @@ const Footer = () => {
           <strong className="font-semibold">Tailwind CSS</strong>
         </Link>
       </h3>
-      <h3>© 2024 Nikita Yaskevich</h3>
+      <h3>© {(new Date().getFullYear())} Nikita Yaskevich</h3>
     </div>
   );
 };
