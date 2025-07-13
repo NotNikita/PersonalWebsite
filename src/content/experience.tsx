@@ -36,18 +36,18 @@ export const experienceItems: ExperienceItem[] = [
       year: "2022",
     },
     end: {
-      month: "September",
-      year: "2024",
+      month: "August",
+      year: "2025",
     },
     redirectUrl: "https://finteum.com/",
     description:
-      "I designed and implemented crucial parts of web app. Introduced innovative perfomance-oriented libs. Wrote E2E and unit tests. Implemented precise fee calculation service in Scala, including PDF generation and thorough test coverage.",
+      "Helped transitioning Application from Redux to Tanstack-query and introduced form state manager (using Typescript, Tanstack-query, Yup, react-hook-form). Designed and implemented precise fee calculation service in Go, including PDF generation and thorough test coverage.",
     techStack: [
       {
         name: "Typescript",
       },
       {
-        name: "Node.js",
+        name: "Golang",
       },
       {
         name: "React",
@@ -56,19 +56,16 @@ export const experienceItems: ExperienceItem[] = [
         name: "Next.js",
       },
       {
-        name: "Scala",
+        name: "Fiber",
       },
       {
         name: "Tanstack-query",
       },
       {
-        name: "Redux",
-      },
-      {
         name: "PostgreSQL",
       },
       {
-        name: "CI/CD",
+        name: "Kafka",
       },
       {
         name: "Cypress/TestCafe",
@@ -78,7 +75,7 @@ export const experienceItems: ExperienceItem[] = [
 
   {
     title: "Fullstack Developer",
-    organization: "Medoo/Targsoft, Belarus",
+    organization: "Idelic/Targsoft, Belarus",
     start: {
       month: "June",
       year: "2022",
@@ -88,37 +85,36 @@ export const experienceItems: ExperienceItem[] = [
       year: "2022",
     },
     description:
-      "Aided in implementing collaborative document editing via RemirrorJs. Implemented Backend part on Node,js that would handle document and journal storage. Developed impactful features in Apollo Server+GraphQL, enhancing project capabilities and UX.",
+      `Creating microservices for Driver Claims, maintaining and understanding existing legacy code.
+Developed internal-facing dashboards. Investigated user-reported bugs. Helped building
+microfrontend for document and feedback management. Creating MVPs for new ideas, A/B testing`,
     techStack: [
       {
-        name: "TypeScript",
+        name: "Next.js",
       },
       {
-        name: "Node.js",
+        name: "Golang",
       },
       {
-        name: "React",
+        name: "AWS",
       },
       {
-        name: "GraphQL",
+        name: "S3",
       },
       {
-        name: "RemirrorJs",
+        name: "RabbitMQ",
       },
       {
-        name: "Auth0",
+        name: "Docker",
       },
       {
         name: "MongoDB",
-      },
-      {
-        name: "AWS Lambda & S3",
-      },
+      }
     ],
   },
   {
     title: "Frontend Developer",
-    organization: "Idelic/Targsoft, Belarus",
+    organization: "Medoo/Targsoft, Belarus",
     start: {
       month: "August",
       year: "2020",
@@ -129,25 +125,23 @@ export const experienceItems: ExperienceItem[] = [
     },
     redirectUrl: "https://idelic.com",
     description:
-      "Built React MicroFrontend for claim tracking and document management in a 2-person team. Had experience with Microsoft Fluent UI, Chakra and Ant libraries Was working with both microfrontends and microservices.",
+      `Outsourcing. Working on Medoo Project (aided in implementing collaborative document editing).
+Creating UI and file storage`,
     techStack: [
       {
         name: "TypeScript",
       },
       {
-        name: "React",
+        name: "Node.js",
       },
       {
-        name: "Java",
+        name: "GraphQL",
       },
       {
-        name: "Redux",
+        name: "AWS",
       },
       {
-        name: "Storybook",
-      },
-      {
-        name: "Figma",
+        name: "S3",
       },
       {
         name: "FluentUI",

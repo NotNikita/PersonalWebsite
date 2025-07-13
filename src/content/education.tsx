@@ -22,6 +22,20 @@ export type EducationItem = {
 export const educationItems: EducationItem[] = [
   // Todo: add certifications
   {
+    title: "Ozon Route256 2025 graduate",
+    schoolName: "Ozon tech",
+    start: {
+      month: "May",
+      year: "2025",
+    },
+    end: {
+      month: "August",
+      year: "2025",
+    },
+    redirectUrl: "https://route256.ozon.ru",
+    additional: ["• Practice-intensive course for Middle golang developers", "• Learned insights from industry-leading experts in high-load apps"],
+  },
+  {
     title: "Bachelor's in Computer Science",
     schoolName: "Belarussian State University of Informatics and Radioelectronics",
     start: {

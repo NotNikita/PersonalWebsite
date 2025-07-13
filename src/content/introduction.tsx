@@ -5,7 +5,7 @@ export const introductionItems: (string | number)[] = [
   "React / Next.js",
   2000,
 
-  "Node.js / Python",
+  "Golang",
   2000,
 
   "Bachelor in Computer Science",

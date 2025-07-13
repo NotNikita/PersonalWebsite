@@ -9,6 +9,14 @@ export type ProjectItem = {
 
 export const projectsItems: ProjectItem[] = [
   {
+    name: "Big Great Golang Project",
+    role: "Creator",
+    description: "Big BE project with multiple Go microservices, communicating between themselfes via Kafka, gRPC. Connected to PostgreSQL, utilizing transactions and observability.",
+    href: "https://github.com/NotNikita/OrderStockManager",
+    image: "https://img-c.udemycdn.com/course/480x270/4665696_b31d.jpg",
+    backgroundColor: "frogger",
+  },
+  {
     name: "Next.js Restaurant Helper",
     role: "Creator",
     description: "Coming soon, now private. Using SSR and Next.js to create a restaurant helper app.",
@@ -17,11 +25,19 @@ export const projectsItems: ProjectItem[] = [
     backgroundColor: "frogger",
   },
   {
-    name: "Pokemon dashboard",
+    name: "Web3Wallet",
     role: "Creator",
-    description: "todo",
-    href: "https://github.com/NotNikita/Pokemons",
-    image: "./pokemon.svg",
+    description: "Fullstack Golang-Next.js webapp for creating short links",
+    href: "https://github.com/NotNikita?tab=repositories",
+    image: "./wallet.svg",
+    backgroundColor: "languagefix",
+  },
+  {
+    name: "Udemy Message Queues Course",
+    role: "Student",
+    description: "Small, self-contained, loosely coupled microservices that will will communicate with one another and a simple front-end application with a REST API, with RPC, over gRPC, and by sending and consuming messages using AMQP",
+    href: "https://github.com/NotNikita/GoMicroservices",
+    image: "https://img-c.udemycdn.com/course/480x270/4665696_b31d.jpg",
     backgroundColor: "2fa",
   },
   {
@@ -32,14 +48,6 @@ export const projectsItems: ProjectItem[] = [
     href: "https://github.com/NotNikita/PuppeteerScraper",
     image: "./crawler.svg",
     backgroundColor: "voluntime",
-  },
-  {
-    name: "Web3Wallet",
-    role: "Creator",
-    description: "A simple, yet useful web3 wallet that allows you to interact with the Ethereum blockchain.",
-    href: "https://github.com/NotNikita/Web3Wallet",
-    image: "./wallet.svg",
-    backgroundColor: "languagefix",
   },
   {
     name: "VodoProf",
