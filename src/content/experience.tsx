@@ -40,8 +40,11 @@ export const experienceItems: ExperienceItem[] = [
       year: "2025",
     },
     redirectUrl: "https://finteum.com/",
-    description:
-      "Helped transitioning Application from Redux to Tanstack-query and introduced form state manager (using Typescript, Tanstack-query, Yup, react-hook-form). Designed and implemented precise fee calculation service in Go, including PDF generation and thorough test coverage.",
+    description: `Helped transitioning Application from Redux to Tanstack-query and introduced form state manager 
+(using Typescript, Tanstack-query, Yup, react-hook-form). Collaborated closely with Product Owner on product 
+development roadmap and rapidly implemented MVPs to validate new features. Designed and implemented precise 
+fee calculation service in Go, including PDF generation and thorough test coverage. 
+Proposed and participated in development of new testing approaches (E2E, Visual Regressions) and their time duration in CI/CD pipeline.`,
     techStack: [
       {
         name: "Typescript",
@@ -70,6 +73,12 @@ export const experienceItems: ExperienceItem[] = [
       {
         name: "Cypress/TestCafe",
       },
+      {
+        name: "Kibana/Elasticsearch",
+      },
+      {
+        name: "Cypress/TestCafe/Playwright",
+      },
     ],
   },
 
@@ -84,8 +93,7 @@ export const experienceItems: ExperienceItem[] = [
       month: "December",
       year: "2022",
     },
-    description:
-      `Creating microservices for Driver Claims, maintaining and understanding existing legacy code.
+    description: `Creating microservices for Driver Claims, maintaining and understanding existing legacy code.
 Developed internal-facing dashboards. Investigated user-reported bugs. Helped building
 microfrontend for document and feedback management. Creating MVPs for new ideas, A/B testing`,
     techStack: [
@@ -109,7 +117,7 @@ microfrontend for document and feedback management. Creating MVPs for new ideas,
       },
       {
         name: "MongoDB",
-      }
+      },
     ],
   },
   {
@@ -124,8 +132,7 @@ microfrontend for document and feedback management. Creating MVPs for new ideas,
       year: "2022",
     },
     redirectUrl: "https://idelic.com",
-    description:
-      `Outsourcing. Working on Medoo Project (aided in implementing collaborative document editing).
+    description: `Outsourcing. Working on Medoo Project (aided in implementing collaborative document editing).
 Creating UI and file storage`,
     techStack: [
       {
