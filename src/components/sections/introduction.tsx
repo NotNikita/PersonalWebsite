@@ -30,7 +30,7 @@ const Introduction = () => {
                     <TypeAnimation sequence={introductionItems} wrapper="span" cursor={true} repeat={Infinity} />
                   </strong>
                 </h2>
-                <h2>with {(new Date().getFullYear()-2021)}+ years of professional experience.</h2>
+                <h2>with {new Date().getFullYear() - 2020}+ years of professional experience.</h2>
               </div>
             </div>
 
