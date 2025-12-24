@@ -15,13 +15,13 @@ const Projects = ({ projectsItems }: { projectsItems: ProjectItem[] }) => {
             const border = `border-${item.backgroundColor}`;
 
             return (
-              <Link key={index} href={item.href} title={item.name} className={`relative w-full h-full group overflow-hidden rounded-lg`}>
+              <Link key={index} href={item.href} title={item.name} className={`relative w-full h-80 group overflow-hidden rounded-lg`}>
                 {/* Border and hover background */}
                 <div className={`absolute inset-0 ${background} ${border} border-2 border-opacity-25 rounded-lg transition-colors duration-300`} />
 
                 {/* Content container */}
                 <div className="relative w-full h-full px-8 py-16 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                  <Image src={item.image} alt={item.name} width={100} height={100} />
+                  <Image src={item.image} alt={item.name} width={400} height={320} className="w-full h-full object-cover" />
                 </div>
 
                 {/* Overlay on hover */}
