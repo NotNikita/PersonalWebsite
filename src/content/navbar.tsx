@@ -9,12 +9,12 @@ export const navbarItems: NavbarItem[] = [
     href: "#about",
   },
   {
-    name: "Education",
-    href: "#education",
-  },
-  {
     name: "Experience",
     href: "#experience",
+  },
+  {
+    name: "Education",
+    href: "#education",
   },
   {
     name: "Projects",

@@ -28,12 +28,12 @@ export default function Home() {
             <About />
           </section>
 
-          <section id="education">
-            <Education educationItems={educationItems} />
-          </section>
-
           <section id="experience">
             <Experience experienceItems={experienceItems} />
+          </section>
+
+          <section id="education">
+            <Education educationItems={educationItems} />
           </section>
 
           <section id="projects">
